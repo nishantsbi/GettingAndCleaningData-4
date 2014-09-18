@@ -74,5 +74,3 @@ library(dplyr)
       summarise_each(funs(mean))
   # write tidy data to a text file
       write.table(tidy, file="tidy.csv", sep=",", row.names = FALSE, col.names = TRUE)
-#     data <- read.table(file="tidy.csv",header= TRUE, sep=",")
-#     View(data)
